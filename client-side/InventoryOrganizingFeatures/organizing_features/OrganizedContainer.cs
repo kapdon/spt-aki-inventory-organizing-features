@@ -1,11 +1,9 @@
 ﻿using BepInEx.Logging;
 using static InventoryOrganizingFeatures.Reflections.Extensions.LocaleHelper;
 using EFT.InventoryLogic;
-using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using InventoryOrganizingFeatures.Reflections.Extensions;
 using InventoryOrganizingFeatures.Reflections;
 

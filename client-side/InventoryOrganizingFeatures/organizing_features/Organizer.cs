@@ -2,14 +2,8 @@
 using HarmonyLib;
 using InventoryOrganizingFeatures.Reflections;
 using InventoryOrganizingFeatures.Reflections.Extensions;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using UnityEngine;
-using UnityEngine.UI;
 using static InventoryOrganizingFeatures.OrganizedContainer;
 using static InventoryOrganizingFeatures.Reflections.Extensions.LocaleHelper;
 

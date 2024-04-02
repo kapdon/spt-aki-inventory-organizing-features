@@ -1,10 +1,4 @@
-﻿using Aki.Reflection.Patching;
-using BepInEx.Logging;
-using EFT.InventoryLogic;
-using Newtonsoft.Json.UnityConverters;
-using System.ComponentModel;
-using System.Security.Cryptography;
-using IContainer = EFT.InventoryLogic.IContainer;
+﻿using EFT.InventoryLogic;
 
 namespace InventoryOrganizingFeatures
 {
