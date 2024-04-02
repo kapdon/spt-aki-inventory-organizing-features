@@ -1,9 +1,9 @@
-﻿using EFT.InventoryLogic;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
+using EFT.InventoryLogic;
 using HarmonyLib;
 using InventoryOrganizingFeatures.Reflections;
 using InventoryOrganizingFeatures.Reflections.Extensions;
-using System.Linq;
-using System.Text.RegularExpressions;
 using static InventoryOrganizingFeatures.OrganizedContainer;
 using static InventoryOrganizingFeatures.Reflections.Extensions.LocaleHelper;
 

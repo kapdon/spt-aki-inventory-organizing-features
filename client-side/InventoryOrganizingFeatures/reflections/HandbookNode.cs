@@ -1,8 +1,8 @@
-﻿using EFT.HandBook;
-using InventoryOrganizingFeatures.Reflections.Extensions;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using EFT.HandBook;
+using InventoryOrganizingFeatures.Reflections.Extensions;
 
 namespace InventoryOrganizingFeatures.Reflections
 {

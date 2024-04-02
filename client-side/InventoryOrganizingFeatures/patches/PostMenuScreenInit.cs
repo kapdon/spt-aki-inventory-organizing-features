@@ -1,10 +1,10 @@
-using Aki.Reflection.Patching;
-using EFT.UI;
-using HarmonyLib;
-using InventoryOrganizingFeatures.Reflections;
 using System;
 using System.Reflection;
+using EFT.UI;
+using HarmonyLib;
 using UnityEngine;
+using Aki.Reflection.Patching;
+using InventoryOrganizingFeatures.Reflections;
 using static InventoryOrganizingFeatures.UserInterfaceElements;
 
 namespace InventoryOrganizingFeatures

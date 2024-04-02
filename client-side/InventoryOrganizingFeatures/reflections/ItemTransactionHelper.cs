@@ -1,5 +1,5 @@
-﻿using EFT.InventoryLogic;
-using System;
+﻿using System;
+using EFT.InventoryLogic;
 
 namespace InventoryOrganizingFeatures.Reflections
 {

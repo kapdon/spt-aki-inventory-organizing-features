@@ -1,9 +1,9 @@
-using Aki.Reflection.Patching;
+using System;
+using System.Reflection;
 using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
-using System;
-using System.Reflection;
+using Aki.Reflection.Patching;
 using static InventoryOrganizingFeatures.Locker;
 using static InventoryOrganizingFeatures.Organizer;
 using static InventoryOrganizingFeatures.OrganizedContainer;

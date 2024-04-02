@@ -1,11 +1,11 @@
-﻿using BepInEx.Logging;
-using static InventoryOrganizingFeatures.Reflections.Extensions.LocaleHelper;
-using EFT.InventoryLogic;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using InventoryOrganizingFeatures.Reflections.Extensions;
+using BepInEx.Logging;
+using EFT.InventoryLogic;
 using InventoryOrganizingFeatures.Reflections;
+using InventoryOrganizingFeatures.Reflections.Extensions;
+using static InventoryOrganizingFeatures.Reflections.Extensions.LocaleHelper;
 
 namespace InventoryOrganizingFeatures
 {

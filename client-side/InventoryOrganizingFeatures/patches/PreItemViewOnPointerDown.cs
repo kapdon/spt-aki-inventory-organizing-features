@@ -1,8 +1,8 @@
-using Aki.Reflection.Patching;
-using EFT.UI.DragAndDrop;
-using HarmonyLib;
 using System;
 using System.Reflection;
+using EFT.UI.DragAndDrop;
+using HarmonyLib;
+using Aki.Reflection.Patching;
 using static InventoryOrganizingFeatures.Locker;
 
 namespace InventoryOrganizingFeatures

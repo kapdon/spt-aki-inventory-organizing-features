@@ -1,11 +1,11 @@
-using Aki.Reflection.Patching;
-using EFT.UI;
-using EFT.UI.DragAndDrop;
-using HarmonyLib;
 using System;
 using System.Diagnostics;
 using System.Reflection;
+using EFT.UI;
+using EFT.UI.DragAndDrop;
+using HarmonyLib;
 using UnityEngine.UI;
+using Aki.Reflection.Patching;
 using static InventoryOrganizingFeatures.UserInterfaceElements;
 
 namespace InventoryOrganizingFeatures

@@ -1,10 +1,11 @@
-using Aki.Reflection.Patching;
+using System;
+using System.Reflection;
 using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
+using Aki.Reflection.Patching;
 using InventoryOrganizingFeatures.Reflections;
-using System;
-using System.Reflection;
+
 using static InventoryOrganizingFeatures.Locker;
 
 namespace InventoryOrganizingFeatures
