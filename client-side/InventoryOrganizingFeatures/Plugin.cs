@@ -25,7 +25,6 @@ namespace InventoryOrganizingFeatures
             // and it's pretty noticable when playing (well... being in your stash, doing stuff)
             // E.g. First time you click on the "Organize" button it hangs for about a second.
             // Every other time is quick.
-            RuntimeHelpers.RunClassConstructor(typeof(ContainerHelper).TypeHandle);
             RuntimeHelpers.RunClassConstructor(typeof(LocaleHelper).TypeHandle);
             RuntimeHelpers.RunClassConstructor(typeof(ItemTransactionHelper).TypeHandle); // this one especially.
 
