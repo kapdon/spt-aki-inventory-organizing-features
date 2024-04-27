@@ -20,37 +20,44 @@
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
   </ItemGroup>
+  
+  <PropertyGroup>
+    <ManagedAssembliesPath>..\..\..\SIT-Mod-Ports\References</ManagedAssembliesPath>
+  </PropertyGroup>
 
 	<ItemGroup>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Assembly-CSharp.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Assembly-CSharp.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Assembly-CSharp.dll">
+			<HintPath>$(ManagedAssembliesPath)\Assembly-CSharp.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Aki.Reflection.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Aki.Reflection.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Aki.Reflection.dll">
+			<HintPath>$(ManagedAssembliesPath)\Aki.Reflection.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Aki.Common.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Aki.Common.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Aki.Common.dll">
+			<HintPath>$(ManagedAssembliesPath)\Aki.Common.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Newtonsoft.Json.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Newtonsoft.Json.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Newtonsoft.Json.dll">
+			<HintPath>$(ManagedAssembliesPath)\Newtonsoft.Json.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Newtonsoft.Json.UnityConverters.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Newtonsoft.Json.UnityConverters.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Newtonsoft.Json.UnityConverters.dll">
+			<HintPath>$(ManagedAssembliesPath)\Newtonsoft.Json.UnityConverters.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Comfort.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Comfort.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Comfort.dll">
+			<HintPath>$(ManagedAssembliesPath)\Comfort.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\ItemComponent.Types.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\ItemComponent.Types.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\ItemComponent.Types.dll">
+			<HintPath>$(ManagedAssembliesPath)\ItemComponent.Types.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Unity.TextMeshPro.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Unity.TextMeshPro.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Unity.TextMeshPro.dll">
+			<HintPath>$(ManagedAssembliesPath)\Unity.TextMeshPro.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\Sirenix.Serialization.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\Sirenix.Serialization.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\Sirenix.Serialization.dll">
+			<HintPath>$(ManagedAssembliesPath)\Sirenix.Serialization.dll</HintPath>
 		</Reference>
-		<Reference Include="dependencies\$(TargetSptAkiVersion)\UnityEngine.UI.dll">
-			<HintPath>dependencies\$(TargetSptAkiVersion)\UnityEngine.UI.dll</HintPath>
+		<Reference Include="$(ManagedAssembliesPath)\UnityEngine.UI.dll">
+			<HintPath>$(ManagedAssembliesPath)\UnityEngine.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="StayInTarkov">
+		  <HintPath>..\..\..\SIT-Mod-Ports\References\StayInTarkov.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 </Project>

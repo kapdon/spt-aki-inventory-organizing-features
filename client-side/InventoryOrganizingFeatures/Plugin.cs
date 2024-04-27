@@ -11,7 +11,7 @@ namespace InventoryOrganizingFeatures
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
-        public static bool EnableLogs = false;
+        public static bool EnableLogs = true;
         public static ManualLogSource GlobalLogger;
         private void Awake()
         {

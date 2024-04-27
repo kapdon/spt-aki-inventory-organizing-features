@@ -16,7 +16,7 @@ namespace InventoryOrganizingFeatures
         public const char OrganizeTagEnd = ';';
         public static Regex OrganizeRegex = new(OrganizeTag + " (.*?)" + OrganizeTagEnd);
 
-        public static Handbook Handbook { get; set; } = null;
+        public static Reflections.Handbook Handbook { get; set; } = null;
         
         public static void Organize(LootItemClass topLevelItem, InventoryControllerClass controller)
         {

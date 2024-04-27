@@ -2,8 +2,7 @@
 using System.Reflection;
 using EFT.UI;
 using HarmonyLib;
-using Aki.Reflection.Patching;
-using InventoryOrganizingFeatures.Reflections;
+using StayInTarkov;
 
 namespace InventoryOrganizingFeatures
 {
@@ -19,7 +18,7 @@ namespace InventoryOrganizingFeatures
         {
             try
             {
-                Organizer.Handbook ??= new Handbook(handbook);
+                Organizer.Handbook ??= new Reflections.Handbook(handbook);
                 //Logger.LogMessage($"Elements: {Organizer.Handbook.NodesTree.Count}");
                 //var search = Organizer.Handbook.FindNode("5751496424597720a27126da");
                 //if (search != null)

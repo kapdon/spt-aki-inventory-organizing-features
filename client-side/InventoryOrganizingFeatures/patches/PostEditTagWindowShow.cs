@@ -3,7 +3,7 @@ using System.Reflection;
 using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
-using Aki.Reflection.Patching;
+using StayInTarkov;
 using static InventoryOrganizingFeatures.Locker;
 using static InventoryOrganizingFeatures.Organizer;
 using static InventoryOrganizingFeatures.OrganizedContainer;
@@ -17,12 +17,13 @@ namespace InventoryOrganizingFeatures
             return AccessTools.Method(typeof(EditTagWindow), "Show", new Type[] { typeof(TagComponent), typeof(Action), typeof(Action), typeof(Action<string, int>) });
         }
 
-        [PatchPrefix]
-        private static void PatchPrefix(ref EditTagWindow __instance, ref DefaultUIButton ____saveButtonSpawner, ValidationInputField ____tagInput)
+        [PatchPostfix]
+        private static void PatchPostfix(ref EditTagWindow __instance, ref DefaultUIButton ____saveButtonSpawner, ValidationInputField ____tagInput)
         {
             try
             {
                 ____tagInput.characterLimit = 256;
+                // Logger.LogInfo("tag text: " + ____tagInput.text);
                 ____saveButtonSpawner.OnClick.AddListener(new UnityEngine.Events.UnityAction(() =>
                 {
                     try

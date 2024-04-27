@@ -1,5 +1,6 @@
 using EFT.InventoryLogic;
-using ContainerFilter = GClass2510;
+using ContainerFilter = GClass2521;
+using StashGridClass = StashGrid;
 
 namespace InventoryOrganizingFeatures
 {
